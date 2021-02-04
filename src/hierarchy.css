@@ -1,0 +1,7 @@
+.sidebar {
+  transition: width 2s ease;
+  display: block;
+  width: 0;
+  color: black;
+  font-weight: 600;
+}

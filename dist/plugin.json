@@ -1,0 +1,40 @@
+{
+  "type": "panel",
+  "name": "hierarchy",
+  "id": "connect-all-hierarchy",
+  "info": {
+    "description": "ConnectALL Hierarchy Data Visualizer Plugin",
+    "author": {
+      "name": "Vijay Leo Marcelin",
+      "url": "www.connectall.com"
+    },
+    "keywords": [
+      "hierarchy",
+      "parent",
+      "child",
+      "tree",
+      "levels"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "2021-01-22"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}
