@@ -1,3 +1,19 @@
+# Grafana 7.3.0 - Overview of CA Hierarchy plugin
+
+#### The primary objective of this plugin is to project an hierarchial structure to the user who takes effect of our custom grafana plugin.
+
+The data from the data source will flow in linearly pattern, for which the underlying logic groups the data in a hierarchial fashion. Say for example, your query is executed as in below:
+
+```terminal
+select level1, level2, level3, level4, level5 from hierarchy_structure;
+```
+
+The above query bring the tuples for various combinations of immediate parents, some may even group under a specific super parent.
+
+End result of the hierarchy structure is as in below:
+
+![Sample Depiction of the hierarchial structure](https://help.sap.com/doc/e2b9d153e8b34208e10000000a174cb4/1503%20SP%206/en-US/6f41d253913e4608e10000000a174cb4.gif)
+
 # Grafana 7.3.0 - Custom Plugins
 
 ![Custom Grafana Plugin Development](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMM91EIu8C_Sa_Ap8VgmUOtHVaohH6qyzmzw&usqp=CAU)
