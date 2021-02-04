@@ -1,4 +1,4 @@
-# Grafana 7.3.0 - Overview of CA Hierarchy plugin
+# Grafana Custom ConnectALL plugin - Overview of CA Hierarchy plugin
 
 #### The primary objective of this plugin is to project an hierarchial structure to the user who takes effect of our custom grafana plugin.
 
