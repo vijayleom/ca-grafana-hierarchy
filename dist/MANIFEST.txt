@@ -4,12 +4,9 @@ Hash: SHA512
 
 {
   "manifestVersion": "2.0.0",
-  "signatureType": "private",
+  "signatureType": "community",
   "signedByOrg": "vleo",
   "signedByOrgName": "vleo",
-  "rootUrls": [
-    "http://localhost:3000/"
-  ],
   "plugin": "connect-all-hierarchy",
   "version": "1.0.0",
   "time": 1611323749610,
