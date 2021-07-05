@@ -5,3 +5,7 @@
   color: black;
   font-weight: 600;
 }
+
+.treeview {
+  display: inline
+}

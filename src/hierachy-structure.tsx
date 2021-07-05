@@ -3,4 +3,5 @@ export interface Hierarchy {
   key: string;
   parentkey: string;
   children?: Hierarchy[];
+  percentage: number;
 }

@@ -12,13 +12,17 @@ interface Property extends PanelProps<SimpleOptions> {}
 export const SimplePanel: React.FC<Property> = ({  data, height, width }) => {
   const styles = getStyles();
   const check = getData(data);
-    console.log('data',data);
+  const styleInline = `
+		p .treeview {
+			display: inline
+		}`
     return (
       <div className={cx(
         styles["panel-content"],css`
           width: auto;
           height: ${height}px;
         `)}>
+        <style>{styleInline}</style>
        <ShowHierarchy data={check} ></ShowHierarchy>
        </div>
     );
